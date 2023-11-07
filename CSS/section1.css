@@ -1,0 +1,38 @@
+#s1-responsive {
+	/* desativando a sessão mobile */
+	display: none;
+}
+
+div.s1-b1,
+.s1-b2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 40%;
+	height: 70%;
+	color: black;
+}
+
+.s1-b1 p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 55px;
+	width: 100%;
+	font-weight: 700;
+}
+
+.s1-b1 a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background: #DA5F17;
+	border-radius: 10px;
+	height: 50px;
+	width: 345px;
+	border-radius: 10px;
+}
+
+
+.s1-b2 img {
+	width: 100%;
+}

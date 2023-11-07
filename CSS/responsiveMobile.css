@@ -1,0 +1,68 @@
+/* responsividade mobile */
+
+@media screen and (max-width:480px) {
+
+	.container-text {
+		width: 100%;
+		font-size: 22px;
+		line-height: 26px
+	}
+
+	section {
+		height: 100vh;
+	}
+
+	div.s1-b1,
+	.s1-b2 {
+		width: 100%;
+		height: 90%;
+	}
+
+	.s1-b1 p {
+		font-size: 45px;
+	}
+
+	.s1-b1 a {
+		height: 4em;
+		font-size: 1.5em;
+	}
+
+	div.s4-b1-blocos-b2 p {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	div.s4-b1-blocos-b3 p {
+		font-size: 26px;
+		line-height: 26px;
+		width: 90%;
+	}
+
+	.name {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.desc {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	div.s5-b1-blocos-b2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:380px) {
+	section {
+		height: 125vh;
+	}
+
+	#s2 {
+		width: 100%;
+	}
+
+	.line {
+		display: none;
+	}
+}

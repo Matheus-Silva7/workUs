@@ -1,0 +1,167 @@
+/* Início da quarta sessão */
+
+#s4 {
+	background-color: #DA5F17;
+}
+
+div.s4-b1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 85%;
+	height: 75%;
+	background-color: #DA5F17;
+}
+
+div.s4-b1-blocos {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 80%;
+	width: 90%;
+	background-color: white;
+	border: 3px solid #DA5F17;
+	box-shadow: 5px 6px 0px -3px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+div.s4-b1-blocos-b1,
+div.s4-b1-blocos-b3 {
+	width: 100%;
+	height: 35%;
+}
+
+.s4-b1-blocos-b1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6%;
+}
+
+.s4-b1-blocos-b1 img {
+	width: 100%;
+	height: 100%;
+}
+
+div.s4-b1-blocos-b2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 2% 0;
+	width: 100%;
+	padding: 0 5%;
+	height: 25%;
+}
+
+div.s4-b1-blocos-b2 p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 10%;
+}
+
+.s4-line {
+	display: flex;
+	width: 90%;
+	border-bottom: 4px solid #DA5F17;
+	border-radius: 2px;
+}
+
+div.s4-b1-blocos-b3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 5%;
+}
+
+div.s4-b1-blocos-b3 p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #000000;
+}
+
+.carousel,
+.carousel-vant {
+	height: 80%;
+	width: 100%;
+	display: flex;
+}
+
+.slide,
+.slide-vant {
+	height: 100%;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+}
+
+
+/* carousel comentários */
+
+.carousel {
+	width: 100%;
+	/* Ajuste a largura conforme necessário */
+	overflow: hidden;
+	position: relative;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	/* Ajuste a altura conforme necessário */
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	animation: slideAnimation 28s infinite;
+}
+
+.slide:nth-child(1) {
+	animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+	animation-delay: 7s;
+}
+
+.slide:nth-child(3) {
+	animation-delay: 14s;
+}
+
+.slide:nth-child(4) {
+	animation-delay: 21s;
+}
+
+@keyframes slideAnimation {
+	0% {
+		opacity: 0;
+	}
+
+	8% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 1;
+	}
+
+	33% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

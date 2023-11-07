@@ -1,0 +1,43 @@
+/* Início da terceira sessão */
+
+.s3-b1 img,
+.s3-b3 img {
+	width: 100%;
+}
+
+.s3-b1,
+.s3-b3 {
+	display: flex;
+	align-items: center;
+	width: 15%;
+	height: 80%;
+}
+
+.s3-b2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	height: 85%;
+}
+
+.s3-b2 a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background: #DA5F17;
+	border-radius: 10px;
+	height: 51px;
+	width: 345px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+.s3-b2 p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}

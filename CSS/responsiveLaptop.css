@@ -1,0 +1,97 @@
+/* responsividade laptop */
+
+@media screen and (max-width:1024px) {
+
+	div.s1-b1,
+	.s1-b2 {
+		width: 47%;
+	}
+
+	.s1-b1 p {
+		font-size: 50px;
+	}
+
+	.s3-b2 {
+		height: 100%;
+	}
+
+	div.descricao {
+		width: 65%;
+	}
+
+	div.s4-b1-blocos {
+		height: 100%;
+		width: 70%;
+	}
+
+	div.s4-b1-blocos-b1 {
+		height: 50%;
+	}
+
+	div.s4-b1-blocos-b2 p {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	div.s4-b1-blocos-b3 p {
+		font-size: 30px;
+		line-height: 35px;
+		width: 90%;
+	}
+
+	.carousel-vant {
+		width: 100%;
+		/* Ajuste a largura conforme necessário */
+		overflow: hidden;
+		position: relative;
+	}
+
+	.slide-vant {
+		width: 100%;
+		height: 100%;
+		/* Ajuste a altura conforme necessário */
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		animation: slideAnimation 28s infinite;
+	}
+
+	.slide-vant:nth-child(1) {
+		animation-delay: 0s;
+	}
+
+	.slide-vant:nth-child(2) {
+		animation-delay: 7s;
+	}
+
+	.slide-vant:nth-child(3) {
+		animation-delay: 14s;
+	}
+
+	.slide-vant:nth-child(4) {
+		animation-delay: 21s;
+	}
+
+	@keyframes slideAnimation {
+		0% {
+			opacity: 0;
+		}
+
+		8% {
+			opacity: 1;
+		}
+
+		25% {
+			opacity: 1;
+		}
+
+		33% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0;
+		}
+	}
+}
